@@ -82,4 +82,4 @@ jobs:
         if: github.ref == 'refs/heads/main' && job.status == 'success'
         run: |
           
-          git push heroku HEAD:main -f
+          git push heroku main

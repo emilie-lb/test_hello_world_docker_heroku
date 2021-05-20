@@ -1,3 +1,8 @@
 build:
   docker:
     web: Dockerfile
+
+# possible de lui mettre une commande run => pour passer la release en dynos
+# dynos = container sur heroku
+# run:
+#   web: bundle exec puma -C config/puma.rb

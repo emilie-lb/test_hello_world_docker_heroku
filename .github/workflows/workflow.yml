@@ -21,9 +21,9 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      # pour permettre 
-      # - run: |
-      #     git fetch --prune --unshallow
+
+      - run: |
+          git fetch --prune --unshallow
         
       - name: Set up Python 3.6 environment
         uses: actions/setup-python@v2

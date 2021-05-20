@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/', )
 def index():
-  return "Hello, ceci est un test pour voir si le workflow fonctionne. Déploiement automatique sur heroku via github actions = check"
+  return "Hello, ceci est un test pour voir si le workflow fonctionne. nouveau test pour checker les lignes necessaires"
 
 @app.route('/hello_world')
 def hello_world():
